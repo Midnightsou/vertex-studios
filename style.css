@@ -1,0 +1,90 @@
+:root {
+    --primary-blue: #0077cc;
+    --secondary-blue: #005fa3;
+    --text-color: #ffffff;
+    --background-color: #f4f8fb;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background: var(--primary-blue) url('header-image/photo_2025-01-08_09-35-21.jpg') no-repeat center center;
+    background-size: cover;
+    color: var(--text-color);
+    text-align: center;
+    padding: 150px 20px; /* Increased padding */
+    min-height: 400px; /* Added minimum height */
+}
+
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about {
+    background: var(--secondary-blue) url('about-image/photo_2025-01-08_09-37-52.jpg') no-repeat center center;
+    background-size: cover;
+    color: var(--text-color);
+    padding: 150px 20px; /* Increased padding */
+    min-height: 400px; /* Added minimum height */
+}
+
+.about h2 {
+    font-size: 2.5rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.contact {
+    background-color: var(--primary-blue);
+    color: var(--text-color);
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea, .contact button {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+}
+
+.contact button {
+    background-color: var(--secondary-blue);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--secondary-blue);
+    text-align: center;
+    padding: 20px;
+    color: var(--text-color);
+}
