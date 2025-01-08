@@ -12,24 +12,30 @@ body {
     color: var(--text-color);
 }
 
-header {
-    background: var(--primary-blue) url('header-image/photo_2025-01-08_09-35-21.jpg') no-repeat center center;
-    background-size: cover;
+.header {
+    position: relative;
     color: var(--text-color);
     text-align: center;
-    padding: 150px 20px; /* Increased padding */
-    min-height: 400px; /* Added minimum height */
+    padding: 50px 20px; /* Adjusted padding */
+    background-color: var(--primary-blue);
 }
 
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px; /* Space between image and text */
+}
 
-header h1 {
+.header h1 {
     font-size: 3rem;
     margin: 0;
 }
 
-header p {
+.header p {
     font-size: 1.5rem;
 }
+
 
 section {
     padding: 50px 20px;
@@ -37,7 +43,7 @@ section {
 }
 
 .about {
-    background: var(--secondary-blue) url('about-image/photo_2025-01-08_09-37-52.jpg') no-repeat center center;
+    background: var(--secondary-blue) url('about-image/photo_2025-01-08_22-03-08.jpg') no-repeat center center;
     background-size: cover;
     color: var(--text-color);
     padding: 150px 20px; /* Increased padding */
